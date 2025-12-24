@@ -5,16 +5,31 @@ Welcome to **Python Mastery**, a comprehensive project designed to systematicall
 ## Project Mission
 This project serves as a structured review of **Python abilities** and acts as a strategic **gate to AI Engineering**. It bridges the gap between core programming excellence and the specialized requirements of artificial intelligence and machine learning.
 
-## Key Features
-- **Advanced Python Syntax**: Deep dives into decorators, context managers, and metaclasses.
-- **Asynchronous Programming**: Orchestrating complex workflows with `asyncio`.
-- **Data Engineering**: Handling data efficiently for AI pipelines.
-- **AI Integration**: Demonstrating how Python powers modern AI frameworks.
+## Advanced Mastery Demonstrations
+This project contains a series of specialized scripts exploring advanced Python concepts:
+
+| File | Topic | Description |
+| :--- | :--- | :--- |
+| `args_kwargs_demo.py` | **Flexible Arguments** | Use of `*args` and `**kwargs` for variable length inputs. |
+| `dunder_methods_demo.py` | **Magic Methods** | Operator overloading and custom object behavior using `__str__`, `__add__`, etc. |
+| `context_managers_demo.py` | **Resource Management** | Handling setup/teardown with `with` blocks and `@contextmanager`. |
+| `metaclasses_demo.py` | **Metaprogramming** | Using metaclasses to control class creation and enforce standards. |
+| `abstract_base_classes_demo.py` | **Interfaces (ABCs)** | Defining strict blueprints and API contracts for subclasses. |
+| `multiple_inheritance_demo.py` | **MRO & Mixins** | Understanding Method Resolution Order and composing behaviors with Mixins. |
+| `async_await_demo.py` | **Concurrency** | Non-blocking execution and event loops using `asyncio`. |
+| `monkey_patching_demo.py` | **Runtime Modification** | Dynamically altering code behavior for testing or bug fixes. |
+| `memory_management_demo.py` | **Garbage Collection** | Deep dive into reference counting and circular references. |
+
+## Core Patterns
+- **Singleton Pattern**: `singleton_pattern_demo.py` - Ensuring single instances for loggers/configs.
+- **Factory Pattern**: `factory_pattern_demo.py` - Object creation abstraction.
+- **Proxy Pattern**: `proxy_pattern_demo.py` - Intercepting object access.
+- **Composite Pattern**: `composite_pattern_demo.py` - Tree structures and part-whole hierarchies.
 
 ## Getting Started
 To begin your journey through Python mastery:
 1. Clone the repository.
-2. Run `python app.py` to see the core demonstration.
+2. Run any demo file individually, e.g., `python async_await_demo.py`.
 3. Explore the Jupyter notebooks in the root for interactive learning.
 
 ---
