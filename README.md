@@ -25,6 +25,7 @@ This project contains a series of specialized scripts exploring advanced Python 
 - **Factory Pattern**: `factory_pattern_demo.py` - Object creation abstraction.
 - **Strategy Pattern**: `strategy_pattern_demo.py` - Encapsulating interchangeable algorithms (e.g., discounts).
 - **Command Pattern**: `command_pattern_demo.py` - Encapsulating requests as objects with undo support.
+- **Chain of Responsibility**: `chain_of_responsibility_demo.py` - Passing requests along a chain of handlers.
 - **Proxy Pattern**: `proxy_pattern_demo.py` - Intercepting object access.
 - **Composite Pattern**: `composite_pattern_demo.py` - Tree structures and part-whole hierarchies.
 
